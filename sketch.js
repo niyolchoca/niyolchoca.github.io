@@ -173,7 +173,7 @@ function draw() {
         cuecue_dx[i] = (QUARTER_PI / cuecue_period) * cuecue_xspacing;
     }
     cuecue_yvalues = [];
-
+/*
     contando++;
 
     if (contando <= 1000) {
@@ -197,7 +197,7 @@ function draw() {
                 window.location.reload();
 
     }
-
+*/
     //
 
     if (sketchSelector == 0) {
