@@ -177,7 +177,7 @@ function draw() {
     contando++;
 
     if (contando <= 1000) {
-        tlalocan();
+        tla4locan();
     }
 
     if (contando >= 1000 && contando <= 3000) {

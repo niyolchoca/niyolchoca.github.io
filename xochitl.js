@@ -490,7 +490,7 @@ function tecihuatl() {
     var ruidoC = 0.00008;
     var posC = noise(millis() * ruidoC) * 12;
 
-    translate(0, -433);
+    translate(0, 0);
 
     //    ton_xspacing = 4; // How far apart should each horizontal position be spaced
 
@@ -707,7 +707,7 @@ function tontemiquico() {
         stroke(250, 159, 66);
         stroke(ton_contacolor, ton_contacolor, ton_contacolor, 180);
 
-        ellipse(x * ton_xspacing + 50, 500 + ton_yvalues[x], posC4, posC4);
+        ellipse(x * ton_xspacing + 50, 700 + ton_yvalues[x], posC4, posC4);
 
         var words = RiTa.tokenize("Nitlayocoya, nicnotlamatiya, zan, nitepilitzin Nezahualcóyotl. Zochitica ye ihuan cuicatica niquimilnamiqui tepilhuan, ayn oyaque, yehua Tezozomoctzin, o yehuan Quahquauhtzin. Oc nellin nemoan, quenonamican. ¡Maya niquintoca in intepilhuan, maya niquimonitquili toxochiuh! Ma ic ytech nonaci, yectli yan cuicatl in Tezozomoctzin.")
 
