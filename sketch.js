@@ -54,11 +54,11 @@ var xon_giro = 1;
 
 let ton_xspacing = 10; // How far apart should each horizontal position be spaced
 let ton_w; // Width of entire wave
-let ton_maxwaves = 18; // total # of waves to add together
+let ton_maxwaves = 28; // total # of waves to add together
 
 var ton_lines, ton_markov;
 
-let ton_theta = 0;
+let ton_theta = 100;
 let ton_amplitude = []; // Height of wave
 let ton_dx = []; // Value for incrementing X, to be calculated as a function of period and ton_xspacing
 let ton_yvalues; // Using an array to store height values for the wave (not entirely necessary)
@@ -161,8 +161,8 @@ function setup() {
 function draw() {
 
     for (let i = 0; i < ton_maxwaves; i++) {
-        ton_amplitude[i] = 3;
-        let ton_period = windowWidth / 17; // How many pixels before the wave repeats
+        ton_amplitude[i] = 1.4;
+        let ton_period = windowWidth / 37; // How many pixels before the wave repeats
         ton_dx[i] = (QUARTER_PI / ton_period) * ton_xspacing;
     }
     ton_yvalues = [];

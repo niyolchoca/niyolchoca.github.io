@@ -488,18 +488,18 @@ function tecihuatl() {
     push();
 
     var ruidoC = 0.00008;
-    var posC = noise(millis() * ruidoC) * 4;
+    var posC = noise(millis() * ruidoC) * 400;
 
-    translate(-40, 140);
+    translate(-600, 40);
 
     //    ton_xspacing = 4; // How far apart should each horizontal position be spaced
 
     ton_xspacing = 6;
-    var ruidoC4 = 0.000001;
-    var posC4 = noise(millis() * ruidoC4) * 1000;
+    ton_yvalues + 7;
     var ruidoC4 = 0.00001;
+    var posC4 = noise(millis() * ruidoC4) * 500;
 
-    var posC5 = noise(millis() * ruidoC4) * 1000;
+    var posC5 = noise(millis() * ruidoC4) * 5;
 
 
     for (let x = 0; x < ton_yvalues.length; x++) {
@@ -508,9 +508,14 @@ function tecihuatl() {
         for (var i = 0, j = 2; i < j; i++) {
             imageMode(CENTER);
 
-            image(mictlantecuhtli, x * ton_xspacing - posC4, x + ton_yvalues[x] + i * 370, 900 / 2.5, 900 / 2.5);
+            image(mictlantecuhtli, x * ton_xspacing - posC4, x + ton_yvalues[x] + i * 550, 900 / 2.5, 900 / 2.5);
+/*
+image(mictlantecihuatl, x * 10 - posC4 - 1600, x + ton_yvalues[x] + i * 550, 900 / 2.5, 900 / 2.5);
+*/
 
-            image(mictlantecihuatl, 1300 + x * -ton_xspacing + posC4, x + ton_yvalues[x] + i * 400, 900 / 2.5, 900 / 2.5);
+               image(mictlantecihuatl, 3030 + x * -ton_xspacing + posC4, x + ton_yvalues[x] + i * 400, 900 / 2.5, 900 / 2.5);
+        
+           
         }
     }
     pop();
