@@ -361,10 +361,8 @@ function ton_temiquico() {
 
 
         //tontemiquico(); // primer párrafo Nitlayocoya
-        tecihuatl(); 
+        toyollo();
         //toyollo();
-
-
     }
 
 
@@ -385,7 +383,7 @@ function ton_temiquico() {
     if (ton_contador >= 1400 && ton_contador <= 2000) {
 
         //tontemiquico();
-        ton_xolotl();
+        tecihuatl(); // dual
 
     }
 

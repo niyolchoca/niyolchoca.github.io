@@ -751,7 +751,7 @@ function toyollo() {
 
     ton_xspacing = 20 + posC; // How far apart should each horizontal position be spaced
 
-    translate(0, -100);
+    translate(0, 0);
 
     for (let x = 0; x < ton_yvalues.length; x++) {
 
@@ -761,11 +761,11 @@ function toyollo() {
         fill(255, 170, 0, 60);
         fill(199, 209, 224);
 
-        ellipse(x * ton_xspacing + 50, 700 + ton_yvalues[x], posC4, posC4);
+        ellipse(x * ton_xspacing + 50, 1300 + ton_yvalues[x], posC4, posC4);
 
         noFill();
         stroke(ton_contacolor, ton_contacolor, ton_contacolor, 180);
-        ellipse(x * ton_xspacing + 50, 500 + ton_yvalues[x], posC5, posC5);
+        ellipse(x * ton_xspacing + 50, 700 + ton_yvalues[x], posC5, posC5);
 
         var words = RiTa.tokenize("O ayc ompolihuiz in moteyo, ¡nopiltzin, Tezozomoctzin, anca za ye in mocuic a yca nihualchoca, yn zan nihualicnotlamatico, nontiya. Zan nihualayocoya, nicnotlamati, ayoquic ayoc, quenmanian, titechyaitaquiuh in tlalticpac, yca, nontiya.")
 
@@ -775,7 +775,7 @@ function toyollo() {
         fill(ton_contacolor, 147, 172);
 
         for (var i = 0, j = words.length; i < j; i++) {
-            text(words[i], x * ton_xspacing, x + ton_yvalues[x] + i * 25);
+            text(words[i], x * ton_xspacing, 90 + ton_yvalues[x] + i * 25);
         }
     }
 }
