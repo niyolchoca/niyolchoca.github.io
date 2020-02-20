@@ -496,10 +496,10 @@ function tecihuatl() {
 
     ton_xspacing = 6;
     var ruidoC4 = 0.000001;
-    var posC4 = noise(millis() * ruidoC4) * 1000;
+    var posC4 = noise(millis() * ruidoC4) * width;
     var ruidoC4 = 0.00001;
 
-    var posC5 = noise(millis() * ruidoC4) * 300;
+    var posC5 = noise(millis() * ruidoC4) * height;
 
 
     for (let x = 0; x < ton_yvalues.length; x++) {
