@@ -490,7 +490,7 @@ function tecihuatl() {
     var ruidoC = 0.00008;
     var posC = noise(millis() * ruidoC) * 12;
 
-    translate(250, 0);
+    translate(500, 0);
 
     //    ton_xspacing = 4; // How far apart should each horizontal position be spaced
 
@@ -744,7 +744,7 @@ function toyollo() {
     var ruidoC5 = 0.00001;
     var posC5 = noise(millis() * ruidoC5) * 1438;
 
-    ton_xspacing = 40 + posC; // How far apart should each horizontal position be spaced
+    ton_xspacing = 20 + posC; // How far apart should each horizontal position be spaced
 
     translate(0, -100);
 
