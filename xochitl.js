@@ -490,7 +490,7 @@ function tecihuatl() {
     var ruidoC = 0.00008;
     var posC = noise(millis() * ruidoC) * 12;
 
-    translate(-60, 200);
+    translate(-200, 200);
 
     //    ton_xspacing = 4; // How far apart should each horizontal position be spaced
 
