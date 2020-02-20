@@ -2,7 +2,7 @@
 
 // tlaloc
 
-let xspacing = 8; // How far apart should each horizontal position be spaced
+let xspacing = 23; // How far apart should each horizontal position be spaced
 let w; // Width of entire wave
 let maxwaves = 200; // total # of waves to add together
 
@@ -18,7 +18,7 @@ var contando = 1;
 
 
 var font,
-    fontsize = 16;
+    fontsize = 24;
 
 var contacolor = 0;
 var dato = 1;
@@ -66,7 +66,7 @@ let ton_yvalues; // Using an array to store height values for the wave (not enti
 var ton_contador = 1;
 
 var ton_font,
-    ton_fontsize = 14;
+    ton_fontsize = 20;
 
 var ton_contacolor = 0;
 var ton_dato = 1;
@@ -91,7 +91,7 @@ let cuecue_yvalues; // Using an array to store height values for the wave (not e
 var cuecue_contador = 1;
 
 var cuecue_font,
-    cuecue_fontsize = 18;
+    cuecue_fontsize = 22;
 
 var cuecue_contacolor = 0;
 var cuecue_dato = 1;
@@ -241,24 +241,24 @@ function tlalocan() {
     weft();
     pop();
 
-    if (contador <= 300) {
+    if (contador <= 600) {
         nicuicanitl();
     }
 
-    if (contador >= 300 && contador <= 700) {
+    if (contador >= 600 && contador <= 1000) {
         tlaaloc();
     }
 
-    if (contador >= 700) {
+    if (contador >= 1000) {
         ohuaya();
     }
 
-    if (contador >= 1000) {
+    if (contador >= 1400) {
         contador = 1;
     }
 }
 
-// tloque nahuaque
+// tloquenahuaque
 
 function xon_ahuiyacan() {
 
@@ -369,8 +369,7 @@ function ton_temiquico() {
 
     if (ton_contador >= 600 && ton_contador <= 1000) {
 
-        tecihuatl(); // dual
-
+tontemiquico(); // 
     }
 
 
@@ -381,15 +380,8 @@ function ton_temiquico() {
     }
 
 
-    if (ton_contador >= 1400 && ton_contador <= 2000) {
 
-        //tontemiquico();
-        tecihuatl(); // dual
-
-    }
-
-
-    if (ton_contador >= 2000) {
+    if (ton_contador >= 1400) {
 
         ton_contador = 1;
 
@@ -440,38 +432,29 @@ function cuecue_xochichuicatl() {
     cuecue_weft();
     pop();
 
-    if (cuecue_contador <= 1280) {
+    if (cuecue_contador <= 600) {
 
-
-        cuecue_xochitl();
-
-    }
-
-
-    if (cuecue_contador >= 1280 && cuecue_contador <= 1880) {
 
         tecuecuepalxochitl();
 
     }
 
 
-    if (cuecue_contador >= 1880 && cuecue_contador <= 3160) {
+    if (cuecue_contador >= 600 && cuecue_contador <= 1200) {
+
+        cuecue_xochitl();
+
+    }
+
+
+    if (cuecue_contador >= 1200 && cuecue_contador <= 1800) {
 
         cacahuaxochitl();
 
     }
 
 
-    if (cuecue_contador >= 3160 && cuecue_contador <= 3760) {
-
-
-        cuecue_xochitl();
-
-
-    }
-
-
-    if (cuecue_contador >= 3760) {
+    if (cuecue_contador >= 1800) {
 
         cuecue_contador = 1;
 
