@@ -82,7 +82,7 @@ function tlaaloc() {
             line(x * 20, posX + yvalues[x], x * 20, posX + random(7) + yvalues[x] + posC);
             line(x * 18, posC4 + yvalues[x], x * 18, posC4 + yvalues[x] + posC);
 
-            image(tlaloc, x * posY, posY - 100 + yvalues[x]);
+            image(tlaloc, x * posY, posY - 100 + yvalues[x], 900/2.5, 900/2.5);
         }
     }
 }

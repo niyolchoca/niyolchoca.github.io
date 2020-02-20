@@ -242,7 +242,7 @@ function tlalocan() {
     pop();
 
     if (contador <= 600) {
-        nicuicanitl();
+        tlaaloc();
     }
 
     if (contador >= 600 && contador <= 1000) {
