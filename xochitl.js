@@ -30,10 +30,10 @@ function nicuicanitl() {
 
     for (let x = 0; x < yvalues.length; x++) {
         //stroke(160, 237, 231);   
-        stroke(0, 207, 220);
+        stroke(255);
         strokeWeight(1);
         //noStroke();
-        line(x * xspacing, posX, x * xspacing, height / 2 + yvalues[x]);
+        line(x * xspacing, posX, x * xspacing, height / 4 + yvalues[x]);
         //ellipse(x * xspacing, height / 2 + yvalues[x], 6, 6);
 
         var words = RiTa.tokenize("Zan o nicuicanitl hui ya, xochitl in noyollo ya, ' ")
@@ -41,8 +41,8 @@ function nicuicanitl() {
         noStroke();
         textSize(fontsize);
         //fill(random(255), contacolor, 240);
-        //fill(200, contacolor, 240);
-        fill(random(255), 0, 240);
+        fill(255);
+        //fill(random(255), 0, 240);
 
         for (var i = 0, j = words.length; i < j; i++) {
             //image(xochitl, x * xspacing, x + yvalues[x] + i * posC);

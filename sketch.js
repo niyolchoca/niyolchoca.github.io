@@ -234,7 +234,7 @@ function tlalocan() {
 
     contador++;
 
-    background(227, 253, 255);
+    background( 57, 51, 62);
     calcWave();
 
     push();
