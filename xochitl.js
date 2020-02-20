@@ -350,6 +350,7 @@ function ahuiyacan() {
     var ruidoC4 = 0.0003;
     var posC4 = noise(millis() * ruidoC4) * 100;
 
+translate(0, 400);
 
     for (let x = 0; x < xon_yvalues.length; x++) {
         //stroke(160, 237, 231);
@@ -386,6 +387,7 @@ function teotl() {
 
     var ruidoC4 = 0.0003;
     var posC4 = noise(millis() * ruidoC4) * 100;
+translate(0, 400);
 
 
     for (let x = 0; x < xon_yvalues.length; x++) {

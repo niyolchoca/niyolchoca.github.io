@@ -41,7 +41,7 @@ let xon_yvalues; // Using an array to store height values for the wave (not enti
 var xon_contador = 1;
 
 var xon_font,
-    xon_fontsize = 18;
+    xon_fontsize = 22;
 
 var xon_contacolor = 0;
 var xon_dato = 1;
@@ -173,33 +173,33 @@ function draw() {
         cuecue_dx[i] = (QUARTER_PI / cuecue_period) * cuecue_xspacing;
     }
     cuecue_yvalues = [];
-/*
+
     contando++;
 
-    if (contando <= 1000) {
-        tla4locan();
+    if (contando <= 1400) {
+        tlalocan();
     }
 
-    if (contando >= 1000 && contando <= 3000) {
-        ton_temiquico();
-    }
-
-    if (contando >= 3000 && contando <= 5000) {
+    if (contando >= 1400 && contando <= 3400) {
         xon_ahuiyacan();
     }
 
-    if (contando >= 5000 && contando <= 8760) {
+    if (contando >= 3400 && contando <= 4800) {
+        ton_temiquico();
+
+    }
+
+    if (contando >= 4800 && contando <= 6600) {
         cuecue_xochichuicatl();
     }
 
-    if (contando >= 8760) {
+    if (contando >= 6600) {
         contando = 0;
                 window.location.reload();
 
     }
-*/
-    //
 
+/*
     if (sketchSelector == 0) {
         tlalocan();
     }
@@ -214,7 +214,7 @@ function draw() {
 
     if (sketchSelector == 3) {
         cuecue_xochichuicatl();
-    }
+    }*/
 }
 
 
