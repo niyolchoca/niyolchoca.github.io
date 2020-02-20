@@ -490,11 +490,11 @@ function tecihuatl() {
     var ruidoC = 0.00008;
     var posC = noise(millis() * ruidoC) * 12;
 
-    translate(500, 0);
+    translate(0, 0);
 
     //    ton_xspacing = 4; // How far apart should each horizontal position be spaced
 
-    ton_xspacing = 3;
+    ton_xspacing = 6;
     var ruidoC4 = 0.000001;
     var posC4 = noise(millis() * ruidoC4) * 1000;
     var ruidoC4 = 0.00001;
@@ -508,9 +508,9 @@ function tecihuatl() {
         for (var i = 0, j = 10; i < j; i++) {
             imageMode(CENTER);
 
-            image(mictlantecuhtli, x * ton_xspacing - posC4, x + ton_yvalues[x] + i * 370, 600 / 3, 600 / 3);
+            image(mictlantecuhtli, x * ton_xspacing - posC4, x + ton_yvalues[x] + i * 370, 900 / 2.5, 900 / 2.5);
 
-            image(mictlantecihuatl, 1300 + x * -ton_xspacing + posC4, x + ton_yvalues[x] + i * 400, 600 / 3, 600 / 3);
+            image(mictlantecihuatl, 1300 + x * -ton_xspacing + posC4, x + ton_yvalues[x] + i * 400, 900 / 2.5, 900 / 2.5);
         }
     }
     pop();

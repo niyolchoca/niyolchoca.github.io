@@ -360,8 +360,8 @@ function ton_temiquico() {
     if (ton_contador <= 600) {
 
 
-        tontemiquico(); // primer párrafo Nitlayocoya
-        //ton_xolotl(); 
+        //tontemiquico(); // primer párrafo Nitlayocoya
+        tecihuatl(); 
         //toyollo();
 
 
