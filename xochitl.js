@@ -490,7 +490,7 @@ function tecihuatl() {
     var ruidoC = 0.00008;
     var posC = noise(millis() * ruidoC) * 12;
 
-    translate(0, 0);
+    translate(100, 0);
 
     //    ton_xspacing = 4; // How far apart should each horizontal position be spaced
 
@@ -746,7 +746,7 @@ function toyollo() {
 
     ton_xspacing = 40 + posC; // How far apart should each horizontal position be spaced
 
-    translate(0, -150);
+    translate(0, -100);
 
     for (let x = 0; x < ton_yvalues.length; x++) {
 
@@ -756,7 +756,7 @@ function toyollo() {
         fill(255, 170, 0, 60);
         fill(199, 209, 224);
 
-        ellipse(x * ton_xspacing + 50, 500 + ton_yvalues[x], posC4, posC4);
+        ellipse(x * ton_xspacing + 50, 700 + ton_yvalues[x], posC4, posC4);
 
         noFill();
         stroke(ton_contacolor, ton_contacolor, ton_contacolor, 180);
