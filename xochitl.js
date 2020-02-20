@@ -490,22 +490,22 @@ function tecihuatl() {
     var ruidoC = 0.00008;
     var posC = noise(millis() * ruidoC) * 12;
 
-    translate(500, 0);
+    translate(60, 200);
 
     //    ton_xspacing = 4; // How far apart should each horizontal position be spaced
 
     ton_xspacing = 6;
     var ruidoC4 = 0.000001;
-    var posC4 = noise(millis() * ruidoC4) * width;
+    var posC4 = noise(millis() * ruidoC4) * 1000;
     var ruidoC4 = 0.00001;
 
-    var posC5 = noise(millis() * ruidoC4) * height;
+    var posC5 = noise(millis() * ruidoC4) * 1000;
 
 
     for (let x = 0; x < ton_yvalues.length; x++) {
         //image(ocelotl, x * ton_xspacing, x + ton_yvalues[x] + i * posC4);
 
-        for (var i = 0, j = 10; i < j; i++) {
+        for (var i = 0, j = 2; i < j; i++) {
             imageMode(CENTER);
 
             image(mictlantecuhtli, x * ton_xspacing - posC4, x + ton_yvalues[x] + i * 370, 900 / 2.5, 900 / 2.5);
